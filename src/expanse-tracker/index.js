@@ -10,10 +10,10 @@ export default () => {
     return (
         <>
             <Row>
-                <Col xs={12} md={4} lg={4}>
+                <Col xs={12} md={5} lg={5}>
                     <ExpansePieChart data={expanses} height={graphHeight}/>
                 </Col>
-                <Col xs={12} md={8} lg={8}>
+                <Col xs={12} md={7} lg={7}>
                     <ExpansesVsLimitBarChart data={categoricalExpansesWithLimits} height={graphHeight}/>
                 </Col>
             </Row>
